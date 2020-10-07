@@ -29,15 +29,6 @@ function Nav() {
             </Link>
           </li>
           <li className="nav-item">
-            <a
-              className="nav-link"
-              href="assets/2020 Sept A Sims Resume.pdf"
-              target="_blank"
-            >
-              Resume
-            </a>
-          </li>
-          <li className="nav-item">
             <Link className="nav-link" to="/Contact">
               Contact
             </Link>
