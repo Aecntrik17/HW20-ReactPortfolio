@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import profilePic from "../assets/AaronSims.jpg";
 
 function About() {
@@ -9,6 +9,15 @@ function About() {
           <h1>About Me</h1>
           <img alt="Aaron Sims" src={profilePic} />
           <p>Content</p>
+          <div>
+          <a
+              className="nav-link"
+              href="assets/2020 Sept A Sims Resume.pdf"
+              target="_blank"
+            >
+              Resume
+            </a>
+          </div>
         </div>
       </div>
     </div>

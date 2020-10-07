@@ -1,5 +1,5 @@
-import React from "react";
-import logo from "./logo.svg";
+import React, { Component } from "react";
+import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./pages/About";
@@ -19,7 +19,7 @@ function App() {
           <Route exact path="/About" component={About} />
           <Route exact path="/Portfolio" component={Portfolio} />
           <Route exact path="/Contact" component={Contact} />
-          <Route component={NoMatch} />
+          <Route exact path="*" component={NoMatch} />
         </Switch>
         <Footer />
       </div>
