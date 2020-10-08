@@ -1,5 +1,6 @@
 import React from "react";
 import profilePic from "../assets/AaronSims.jpg";
+import resume from "../assets/resume.pdf";
 
 function About() {
   return (
@@ -10,11 +11,7 @@ function About() {
           <img alt="Aaron Sims" src={profilePic} />
           <p>Content</p>
           <div>
-          <a
-              className="nav-link"
-              href="assets/2020 Sept A Sims Resume.pdf"
-              target="_blank"
-            >
+            <a className="nav-link" href={resume} target="_blank">
               Resume
             </a>
           </div>
