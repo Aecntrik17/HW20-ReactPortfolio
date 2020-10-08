@@ -1,49 +1,49 @@
 [
     {
         "id":1,
-        "title": "Project One",
-        "image": "screen shot image",
-        "Github": "github Repo link",
-        "Deployed App": "deployed app Link"
+        "title": "Weather App",
+        "image": "https://user-images.githubusercontent.com/64560630/85859211-daa77980-b78a-11ea-9030-86f44219d67c.png",
+        "Github": "https://github.com/Aecntrik17/HW6-Weather-App",
+        "Deployed App": "https://aecntrik17.github.io/HW6-Weather-App/"
     },
 
     {
         "id":2,
-        "title": "Project One",
-        "image": "screen shot image",
-        "Github": "github Repo link",
-        "Deployed App": "deployed app Link"
+        "title": "Movin on Up",
+        "image": "gif in assets folder",
+        "Github": "https://github.com/Aecntrik17/Movin-On-Up",
+        "Deployed App": "https://aecntrik17.github.io/Movin-On-Up/"
     },
 
     {
         "id":3,
-        "title": "Project One",
-        "image": "screen shot image",
-        "Github": "github Repo link",
-        "Deployed App": "deployed app Link"
+        "title": "Workout Tracker",
+        "image": "image in assets folder",
+        "Github": "https://github.com/Aecntrik17/HW17-WorkoutTracker",
+        "Deployed App": "https://sleepy-shelf-82559.herokuapp.com/?id=5f63a6e65b786c47547c12e9"
     },
 
     {
         "id":4,
-        "title": "Project One",
-        "image": "screen shot image",
-        "Github": "github Repo link",
-        "Deployed App": "deployed app Link"
+        "title": "Day Planner",
+        "image": "image in folder",
+        "Github": "https://github.com/Aecntrik17/HW5-planner-scheduler",
+        "Deployed App": "https://aecntrik17.github.io/HW5-planner-scheduler/"
     }
 
     {
         "id":5,
-        "title": "Project One",
-        "image": "screen shot image",
-        "Github": "github Repo link",
-        "Deployed App": "deployed app Link"
+        "title": "Password Generator",
+        "image": "image in assets folder",
+        "Github": "https://github.com/Aecntrik17/HW3-Password-Generator",
+        "Deployed App": "https://aecntrik17.github.io/HW3-Password-Generator/"
     },
 
     {
         "id":6,
-        "title": "Project One",
-        "image": "screen shot image",
-        "Github": "github Repo link",
-        "Deployed App": "deployed app Link"
+        "title": "Javascript Quiz",
+        "image": "image in assets folder",
+        "Github": "https://github.com/Aecntrik17/HW4-Javascript-Quiz",
+        "Deployed App": "https://aecntrik17.github.io/HW4-Javascript-Quiz/"
     }
 ]
