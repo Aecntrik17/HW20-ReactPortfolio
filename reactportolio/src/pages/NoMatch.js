@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Row, Container } from "../components/Grid";
 import Jumbotron from "../components/Jumbotron.js";
 
+// represents the html for when an api route is not found
 const NoMatch = () => {
   return (
     <Container fluid>
@@ -21,4 +22,5 @@ const NoMatch = () => {
   );
 };
 
+// providing for NoMatch component to be accessible in other files
 export default NoMatch;

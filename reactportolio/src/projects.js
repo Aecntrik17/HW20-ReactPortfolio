@@ -4,6 +4,7 @@ import plannerPic from "../src/assets/day_planner.png";
 import passwordPic from "../src/assets/password_generator.png";
 import javascriptPic from "../src/assets/javascript_quiz.png";
 
+// providing for this array of data to be used in other files
 export default [
   {
     id: 1,

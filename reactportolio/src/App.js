@@ -9,11 +9,13 @@ import Nav from "./components/Nav/Nav";
 import Footer from "./components/Footer";
 import NoMatch from "./pages/NoMatch";
 
+// represents the main control for the html displays
 function App() {
   return (
     <Router>
       <div>
         <Nav />
+        {/* allows for the differnt pages to be displayed when the corresponding routes via the URL*/}
         <Switch>
           <Route exact path="/" component={About} />
           <Route exact path="/About" component={About} />

@@ -2,6 +2,7 @@ import React from "react";
 import profilePic from "../assets/AaronSims.jpg";
 import resume from "../assets/resume.pdf";
 
+// the html display for the about page
 function About() {
   return (
     <div className="container-fluid">
@@ -20,5 +21,5 @@ function About() {
     </div>
   );
 }
-
+// allows for this data in About to be accessed in other files
 export default About;

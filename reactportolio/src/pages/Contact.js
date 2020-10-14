@@ -1,5 +1,6 @@
 import React from "react";
 
+// represents the html Contact page
 function Contact() {
   return (
     <div className="container col-sm-8">

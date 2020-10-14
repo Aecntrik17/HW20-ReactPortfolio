@@ -1,5 +1,7 @@
 import React from "react";
 
+// html for Project page, template
+// props are necessary dynamically generate the content of different cards
 function Project(props) {
   return (
     <div className="card" style={{ width: "18rem" }}>
@@ -17,5 +19,5 @@ function Project(props) {
     </div>
   );
 }
-
+// provides for Project to be accesible in other files
 export default Project;
