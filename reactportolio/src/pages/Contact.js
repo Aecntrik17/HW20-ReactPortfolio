@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
 // represents the html Contact page
 function Contact() {
+  const [nameInput, setNameInput] = useState("");
+  const [emailInput, setEmailInput] = useState("");
+  const [messageInput, setMessageInput] = useState("");
+
   return (
     <div className="container col-sm-8">
       <div className="row">
@@ -21,6 +25,8 @@ function Contact() {
               className="form-control"
               id="formGroupExampleInput"
               placeholder="Full Name"
+              value={nameInput}
+              onChange={(e) => setNameInput(e.target.value)}
             />
           </div>
 
@@ -31,6 +37,8 @@ function Contact() {
               className="form-control"
               id="formGroupExampleInput2"
               placeholder="Email address"
+              value={emailInput}
+              onChange={(e) => setEmailInput(e.target.value)}
             />
           </div>
 
@@ -41,6 +49,8 @@ function Contact() {
               id="exampleFormControlTextarea1"
               placeholder="Please type your message here."
               rows="5"
+              value={messageInput}
+              onChange={(e) => setMessageInput(e.target.value)}
             ></textarea>
           </div>
 
