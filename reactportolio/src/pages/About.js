@@ -1,5 +1,7 @@
 import React from "react";
 import profilePic from "../assets/AaronSims.jpg";
+import resume from "../assets/resume.pdf";
+import "./about.css";
 
 // the html display for the about page
 function About() {
@@ -8,7 +10,7 @@ function About() {
       <div className="row">
         <div className="col-md-12">
           <h1>About Me</h1>
-          <img alt="Aaron Sims" src={profilePic} />
+          <img className="img-fluid" alt="Aaron Sims" src={profilePic} />
           <p className="content">
             A natural leader with a demeanor equipped for cultivating
             relationships, effective communication, and teamwork with a proven
@@ -17,8 +19,8 @@ function About() {
             from the University of North Carolina at Chapel Hill.
           </p>
           <p className="content">
-            Seeking an entry-level Front-End Developer opportunity where I can
-            apply newly acquired HTML, Javascript, and REACT skills while
+            Seeking an entry-level software engineering opportunity where I can
+            apply newly acquired HTML, CSS, Javascript, and REACT skills while
             leveraging my 15 + years of corporate and entrepreneurial experience
             within the Financial Services industry. I intend to add value by
             providing unique perspectives on end user interaction.
@@ -31,6 +33,9 @@ function About() {
             merely excellence is attainable.
           </p>
         </div>
+        <a className="resume" href={resume} target="_blank">
+          <b>View Resume</b>
+        </a>
       </div>
     </div>
   );

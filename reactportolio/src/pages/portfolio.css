@@ -1,0 +1,53 @@
+.container {
+  background-color: white;
+  border-style: solid;
+  border-color: grey;
+  min-height: 700px;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: auto;
+  text-align: justify;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.welcome {
+  text-align: center;
+  color: blue;
+}
+
+.project {
+  margin-top: 20px;
+}
+
+.deployed {
+  text-align: center;
+}
+
+.weather {
+  text-align: center;
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+}
+
+.box {
+  margin: 10px;
+  border-style: ridge;
+  border-color: aqua;
+  height: 300px;
+}
+.portfolio-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 155px; */
+}
+
+body {
+  background-color: ghostwhite;
+}

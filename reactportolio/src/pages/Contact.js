@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import "./contact.css";
 
 // represents the html Contact page
 function Contact() {
@@ -41,6 +42,7 @@ function Contact() {
           </div>
         </div>
       </div>
+
       <form onSubmit={sendEmail}>
         <div className="row-form">
           <div className="col-sm-8">

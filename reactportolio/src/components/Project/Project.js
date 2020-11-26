@@ -1,4 +1,5 @@
 import React from "react";
+import "./project.css";
 
 // html for Project page, template
 // props are necessary dynamically generate the content of different cards

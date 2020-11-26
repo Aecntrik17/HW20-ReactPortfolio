@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Nav from "./components/Nav/Nav";
-import Footer from "./components/Footer";
+
 import NoMatch from "./pages/NoMatch";
 
 // represents the main control for the html displays
@@ -23,7 +23,7 @@ function App() {
           <Route exact path="/Contact" component={Contact} />
           <Route exact path="*" component={NoMatch} />
         </Switch>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );
