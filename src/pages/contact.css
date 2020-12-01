@@ -6,8 +6,20 @@ body {
   text-align: right;
 }
 
+.row {
+  width: 100%;
+}
+
+.row-form {
+  width: 100%;
+}
+
 .form-group {
   margin-top: 10px;
+}
+
+.form {
+  width: 100%;
 }
 
 .form-group-message {
@@ -22,10 +34,10 @@ body {
   margin-top: 10px;
 }
 
-::placeholder {
+/* ::placeholder {
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
 .container.col-sm-8 {
   background-color: white;
