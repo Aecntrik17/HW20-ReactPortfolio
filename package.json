@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "https://aecntrik17.github.io/HW20-ReactPortfolio/"
+    "homepage": "https://Aecntrik17.github.io/HW20-ReactPortfolio/"
     
   },
   "eslintConfig": {
