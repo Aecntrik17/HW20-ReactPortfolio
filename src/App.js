@@ -17,11 +17,19 @@ function App() {
         <Nav />
         {/* allows for the differnt pages to be displayed when the corresponding routes via the URL*/}
         <Switch>
-          <Route exact path="/" component={About} />
-          <Route exact path="/About" component={About} />
-          <Route exact path="/Portfolio" component={Portfolio} />
-          <Route exact path="/Contact" component={Contact} />
-          <Route exact path="*" component={NoMatch} />
+          <Route exact path="/HW20-ReactPortfolio/" component={About} />
+          <Route exact path="/HW20-ReactPortfolio/About" component={About} />
+          <Route
+            exact
+            path="/HW20-ReactPortfolio/Portfolio"
+            component={Portfolio}
+          />
+          <Route
+            exact
+            path="/HW20-ReactPortfolio/Contact"
+            component={Contact}
+          />
+          <Route path="HW20-ReactPortfolio/" component={NoMatch} />
         </Switch>
         {/* <Footer /> */}
       </div>
