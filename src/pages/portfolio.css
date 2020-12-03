@@ -1,15 +1,15 @@
-.container {
+.portfolioContainer {
   background-color: white;
   border-style: solid;
   border-color: grey;
   min-height: 700px;
-
   margin-top: 30px;
   margin-bottom: 30px;
-  width: auto;
+  width: 800px;
   text-align: justify;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .welcome {
