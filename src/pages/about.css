@@ -1,0 +1,78 @@
+body {
+  background-color: ghostwhite;
+}
+
+/* setting navbar hamburger to the right */
+.collapse.navbar-collapse {
+  text-align: right;
+}
+
+.navbar.navbar-expand-lg.navbar-drk.bg-drk {
+  border-bottom: solid;
+  border-color: grey;
+}
+
+.nav-link {
+  color: darkgray;
+}
+
+/* defining container parameters */
+.container-fluid {
+  background-color: white;
+  border-style: solid;
+  border-color: grey;
+  min-height: 700px;
+  max-width: 800px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 65%;
+  text-align: justify;
+  float: left;
+  margin-left: 100px;
+  position: absolute;
+  left: 50px;
+}
+/* defining style for header */
+h1 {
+  border-bottom: solid;
+  border-color: grey;
+  width: 100%;
+  padding: 10px;
+  color: turquoise;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.page-header {
+  width: 100%;
+}
+
+.resume {
+  text-align: center;
+  font-weight: 800px;
+}
+
+/* defining profile picture image settings */
+.img-fluid {
+  /* width: 100%; */
+  height: auto;
+  float: left;
+  margin-right: 20px;
+}
+
+/* allowing for text to wrap around the image */
+.col-sm-12 {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightblue;
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
