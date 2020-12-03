@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/HW20-ReactPortfolio/static/css/main.560411b6.chunk.css",
-    "main.js": "/HW20-ReactPortfolio/static/js/main.439ea276.chunk.js",
-    "main.js.map": "/HW20-ReactPortfolio/static/js/main.439ea276.chunk.js.map",
+    "main.css": "/HW20-ReactPortfolio/static/css/main.692a4913.chunk.css",
+    "main.js": "/HW20-ReactPortfolio/static/js/main.ce6b5ebd.chunk.js",
+    "main.js.map": "/HW20-ReactPortfolio/static/js/main.ce6b5ebd.chunk.js.map",
     "runtime-main.js": "/HW20-ReactPortfolio/static/js/runtime-main.c7720ffe.js",
     "runtime-main.js.map": "/HW20-ReactPortfolio/static/js/runtime-main.c7720ffe.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/HW20-ReactPortfolio/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.7dd69d66.chunk.js": "/HW20-ReactPortfolio/static/js/2.7dd69d66.chunk.js",
-    "static/js/2.7dd69d66.chunk.js.map": "/HW20-ReactPortfolio/static/js/2.7dd69d66.chunk.js.map",
+    "static/js/2.adb633c8.chunk.js": "/HW20-ReactPortfolio/static/js/2.adb633c8.chunk.js",
+    "static/js/2.adb633c8.chunk.js.map": "/HW20-ReactPortfolio/static/js/2.adb633c8.chunk.js.map",
     "index.html": "/HW20-ReactPortfolio/index.html",
-    "precache-manifest.8abf53327178b8ebb047ed67014fcdac.js": "/HW20-ReactPortfolio/precache-manifest.8abf53327178b8ebb047ed67014fcdac.js",
+    "precache-manifest.993afe95fbddfd84711f7b1d604aea06.js": "/HW20-ReactPortfolio/precache-manifest.993afe95fbddfd84711f7b1d604aea06.js",
     "service-worker.js": "/HW20-ReactPortfolio/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/HW20-ReactPortfolio/static/css/2.8aa5a7f8.chunk.css.map",
-    "static/css/main.560411b6.chunk.css.map": "/HW20-ReactPortfolio/static/css/main.560411b6.chunk.css.map",
-    "static/js/2.7dd69d66.chunk.js.LICENSE.txt": "/HW20-ReactPortfolio/static/js/2.7dd69d66.chunk.js.LICENSE.txt",
+    "static/css/main.692a4913.chunk.css.map": "/HW20-ReactPortfolio/static/css/main.692a4913.chunk.css.map",
+    "static/js/2.adb633c8.chunk.js.LICENSE.txt": "/HW20-ReactPortfolio/static/js/2.adb633c8.chunk.js.LICENSE.txt",
     "static/media/Movin_on_up.gif": "/HW20-ReactPortfolio/static/media/Movin_on_up.f3ac68ac.gif",
     "static/media/day_planner.png": "/HW20-ReactPortfolio/static/media/day_planner.eaa8ef98.png",
     "static/media/javascript_quiz.png": "/HW20-ReactPortfolio/static/media/javascript_quiz.76bfb718.png",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.c7720ffe.js",
     "static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.7dd69d66.chunk.js",
-    "static/css/main.560411b6.chunk.css",
-    "static/js/main.439ea276.chunk.js"
+    "static/js/2.adb633c8.chunk.js",
+    "static/css/main.692a4913.chunk.css",
+    "static/js/main.ce6b5ebd.chunk.js"
   ]
 }
